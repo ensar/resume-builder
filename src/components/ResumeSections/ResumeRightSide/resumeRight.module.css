@@ -1,0 +1,23 @@
+.resumeRightContainer{
+    width:320px;
+    height:100%;
+    overflow: auto;
+    padding:10px 0 10px 10px;
+}
+.resumeRightContainer h1{
+    color:#335384;
+    padding:20px 0;
+    border-bottom: 1px solid;
+}
+.resumeRightContainer h3{
+    color:#74b9ff;
+}
+.description{
+    color:rgb(39, 38, 38) ;
+}
+.resumeRightContainer p{
+    color:#898d94;
+}
+.experience{
+    margin-bottom: 20px;
+}

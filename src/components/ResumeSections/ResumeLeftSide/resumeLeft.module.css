@@ -1,0 +1,42 @@
+.resumeLeftContainer{
+    width:220px;
+    height:100%;
+    padding: 10px;
+    color:#fff;
+    overflow:auto;
+}
+h2{
+    color:#fff;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+}
+.personal >div{
+    display: flex;
+    align-items: center;
+}
+.personal >div span{
+    margin-left: 10px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.skills>div{
+    background:#fff;
+    color:#335384;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.languages{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}

@@ -1,0 +1,8 @@
+.resumeContainer{
+    width:595px;
+    height:calc(100vh - 20px);
+    background:#fff;
+    margin:0 40px;
+    overflow:auto;
+    display: flex;
+}

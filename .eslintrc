@@ -1,0 +1,7 @@
+{
+    "extends": ["react-app"],
+    "rules": {
+        "arrow-spacing":"warn",
+        "no-lone-blocks":"off"
+       }
+}

@@ -1,0 +1,12 @@
+.editContainer{
+    background:#010409;
+    width:260px;
+    height:100vh;
+    border-radius: 10px 0 0 10px;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}

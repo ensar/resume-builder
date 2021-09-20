@@ -1,0 +1,137 @@
+.container {
+  background: #010409;
+  width: 400px;
+  height: 100vh;
+  border-radius: 0 10px 10px 0;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.nameBox {
+  width: 80%;
+  height: 80px;
+  border: 1px solid #747d8c;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 20px;
+}
+.nameBox > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  border-bottom: 1px solid #747d8c;
+}
+.nameBox > input:focus {
+  border-bottom: 1px solid #fff;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.menuBox {
+  margin: 20px 5px 0 0;
+  position: relative;
+  width: 130px;
+  display: inline-block;
+}
+.menuBox > input {
+  width: 100%;
+  height: 40px;
+  background: #747d8c;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+input::placeholder {
+  color: #b2bec3;
+}
+.menuBox > input::-webkit-outer-spin-button,
+.menuBox > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.skills,
+.language {
+  width: 80%;
+  margin: 40px 0 0 0;
+  padding: 20px 0;
+  border-top: 1px solid #747d8c;
+}
+.skills > form,
+.language > form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.skills > form input,
+.language > form input {
+  width: 180px;
+  background: #747d8c;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn {
+  background-color: #2ecc71;
+  width: 80px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profilepic{
+  margin-top: 20px;
+  
+}
+.profilepic>label span{
+  width:60px;
+  height:60px;
+  background:#747d8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.file{
+  display: none;
+}
+
+.job{
+  width:80%;
+  background:#747d8c;
+  border:none;
+  outline:none;
+  margin:20px 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+.sum{
+  resize: none;
+  width:80% !important;
+  background:#767b83 !important;
+  margin:20px 0;
+  border: none !important;
+  color:#fff !important;
+}
+.modalBtn{
+  background-color: #2ecc71;
+  width: 200px;
+  padding: 10px ;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
