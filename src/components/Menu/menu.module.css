@@ -93,7 +93,7 @@ input::placeholder {
   margin-top: 20px;
   
 }
-.profilepic>label span{
+.profilepic label span{
   width:60px;
   height:60px;
   background:#747d8c;
@@ -107,7 +107,6 @@ input::placeholder {
 .file{
   display: none;
 }
-
 .job{
   width:80%;
   background:#747d8c;

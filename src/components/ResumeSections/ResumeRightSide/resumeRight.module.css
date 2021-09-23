@@ -1,7 +1,8 @@
 .resumeRightContainer{
     width:320px;
     height:100%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-wrap: break-word;
     padding:10px 0 10px 10px;
 }
 .resumeRightContainer h1{

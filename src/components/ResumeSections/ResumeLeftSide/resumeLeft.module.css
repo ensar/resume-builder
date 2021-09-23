@@ -3,7 +3,8 @@
     height:100%;
     padding: 10px;
     color:#fff;
-    overflow:auto;
+    overflow: auto;
+    overflow-wrap: break-word;
 }
 h2{
     color:#272525;
@@ -11,24 +12,26 @@ h2{
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
-
 .personal{
     display: flex;
     flex-direction: column;
+   
 }
 .personal >div{
     display: flex;
     align-items: center;
+    max-width: 200px;
 }
 .personal >div span{
     margin-left: 10px;
+    width: 200px;
 }
 .skills{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
 }
-.skills>div{
+.skills div{
     background:#fff;
     color:#335384;
     border-radius: 4px;
